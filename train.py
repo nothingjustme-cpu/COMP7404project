@@ -12,7 +12,7 @@ from torch.utils.data import DataLoader, Dataset
 
 # constants
 
-NUM_BATCHES = 1000
+NUM_BATCHES = 10000
 BATCH_SIZE = 4
 GRADIENT_ACCUMULATE_EVERY = 4
 LEARNING_RATE = 1e-4
